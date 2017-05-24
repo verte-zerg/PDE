@@ -53,7 +53,6 @@ u_old[n] = bound_cond_r(0)
 u_now[0] = bound_cond_l(tau)
 u_now[n] = bound_cond_r(tau)
 
-
 fig = plt.figure()
 ax = fig.add_subplot(111)
 li, = ax.plot(x, u_now)
